@@ -101,8 +101,27 @@ nav ul li a:hover {
   font-size: 1.5em;
   font-family: cursive;
   color: rgb(8, 47, 153);
-  top: 27vh;
+  top: 28vh;
   left: 30%;
+}
+
+.favorite-styled{
+  background-color:rgba(255, 0, 0, 0.425);
+  position: absolute;
+  top:80%;
+  left:70%;
+  padding: 5px 5px;
+  font-size: 25px;
+  color: black;
+}
+
+.favorite-styled a{
+  text-decoration: none;
+  color: black;
+}
+
+.favorite-styled a:hover{
+  color: white;
 }
 
 .card {
