@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 66px;
+  padding: 0 25px;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 5px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+
+.search button {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.slider {
+  width: 100vw;
+  height: 40vh;
+  margin: 0px, 20px;
+  position: relative;
+}
+
+.em {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.main1 {
+  position: absolute;
+  font-size: 4vw;
+  font-family: monospace;
+  color: rgb(22, 72, 179);
+  top: 8vh;
+  left: 27vw;
+  align-items: center;
+}
+
+.main2 {
+  position: absolute;
+  font-size: 1.5em;
+  font-family: cursive;
+  color: rgb(8, 47, 153);
+  top: 22vh;
+  left: 30%;
+}
+.main3 {
+  position: absolute;
+  font-size: 1.5em;
+  font-family: cursive;
+  color: rgb(8, 47, 153);
+  top: 28vh;
+  left: 30%;
+}
+
+.favorite-styled{
+  background-color:rgba(255, 0, 0, 0.425);
+  position: absolute;
+  top:80%;
+  left:70%;
+  padding: 5px 5px;
+  font-size: 25px;
+  color: black;
+}
+
+.favorite-styled a{
+  text-decoration: none;
+  color: black;
+}
+
+.favorite-styled a:hover{
+  color: white;
+}
+
+.card {
+  max-width: 91vw;
+  margin: 2vw auto;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.my-2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 230%;
+  font-family: cursive;
+}
+
+.text-center-my-1 a:hover {
+  opacity: 0.5;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.card h2 {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.f-link {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 0 14px;
+  display: flex;
+}
+
+.flex-all-center a:hover {
+  color: blue;
+}
+
+.endl {
+  margin: 10px 2px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
